@@ -1,0 +1,421 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link rel="stylesheet" href="{%static "css/flexboxgrid-6.3.1/css/flexboxgrid.css"%}" type="text/css">
+    <link rel="stylesheet" href="{%static "css/main.css"%}">
+    <title>Awura</title>
+</head>
+
+<body>
+    <!--Main Navigation-->
+    <header class="section">
+        <!-- Animated navbar-->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <!-- <div class="nav-bar container-fluid"> -->
+            <!-- <div class="row"> -->
+            <div class="container">
+                <div class="row">
+                    <a class="navbar-brand" href="#"> <img src="{%static "imgs/awuralogo2.svg"%}" alt="" style="width:70px;height:70px;"> AWURA</a>
+                </div>
+                <div class="navbar-collapse" id="navbarExample01">
+
+
+                </div>
+                <div class="d-flex">
+                    <ul class="navbar-nav flex-row">
+                        <!-- Icons -->
+                        <li class="nav-item">
+                            <a class="nav-link pe-2" href="#" rel="nofollow" target="_blank">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-2" href="#" rel="nofollow" target="_blank">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-2" href="#" rel="nofollow" target="_blank">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- </div> -->
+            <!-- </div> -->
+        </nav>
+        <div class="section-showcase" style="    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('{%static "imgs/background.jpeg"%}')">
+            <div class="container-fluid">
+                <div class="row middle-xs middle-sm middle-md middle-lg">
+                    <div class="start col-xs-12 col-sm-12 col-md-1 col-lg-1 col-xl-1">
+                        <ul class="section-nav">
+                            <li class="nav-home">
+                                <button type="button" class="btn btn-selected rounded-circle slide-nav home-slide-nav"><i class="bi bi-house"></i></button>
+                            </li>
+                            <li class="nav-service">
+                                <button type="button" class="btn rounded-circle slide-nav services-slide-nav"><i class="bi bi-clipboard-check"></i></button>
+                            </li>
+                            <li class="nav-projects">
+                                <button type="button" class="btn rounded-circle slide-nav contact-slide-nav"><i class="bi bi-kanban"></i></button>
+                            </li>
+                            <li class="nav-contact">
+                                <button type="button" class="btn rounded-circle slide-nav contact-slide-nav"><i class="bi bi-person-lines-fill"></i></button>
+                            </li>
+                            <li class="nav-about">
+                                <button type="button" class="btn rounded-circle slide-nav about-slide-nav"><i class="bi bi-patch-question"></i></button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+                        <div class="slide_container">
+                            <div class="slideitem slideitem--selected home_slider">
+                                <div class="row">
+                                    <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7" id="content">
+                                        <h1 class="text-light"> Welcome To <span class="">AWURA</span> Computing PLC</h1>
+                                        <p class="text-light">Where You Can find what you want for your ride with the finest vehicles for the timeline you wanted Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis magnam cumque dolor illum, vel numquam harum
+                                            consequatur in quasi tenetur velit odio doloribus aperiam quas, sint cum exercitationem sunt necessitatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quos quam veritatis, dicta nobis
+                                            nam ad at numquam iure animi nostrum laborum ex saepe quis tempora commodi nihil sit quod.</p>
+                                        <div class="row">
+                                            <div class="col-md-6 col-lg-6">
+                                                <button class="btn btn-primary">Contact Us</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="end col-xs-5 col-sm-5 col-md-5 col-lg-5" id="logocontent">
+                                        <img src="{%static "imgs/awuralogo2.svg"%}" class="rotate linear infinite" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slideitem service_slider">
+                                <div class="row middle-xs middle-sm middle-md middle-lg">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center-xs center-sm center-md center-lg" id="content">
+                                        <h2 class="text-light">Our Features & Services</h2>
+                                    </div>
+                                </div>
+                                <div class="row middle-xs middle-sm middle-md middle-lg">
+                                    <div class="service-heading text-center">
+                                        <h1 class="text-info">Our Focus</h1>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row justify-content-center">
+                                            <div class="card-transparent">
+                                                <div class="row">
+                                                    <div class="center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg col-md-4">
+                                                        <h2 class="rounded-start id">01</h2>
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">Software Development</h5>
+                                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row justify-content-center">
+                                            <div class="card-transparent">
+                                                <div class="row">
+                                                    <div class="center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg col-md-4">
+                                                        <h2 class="rounded-start id">02</h2>
+                                                    </div>
+                                                    <div class="start col-md-8">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">Electrical Infrastructure</h5>
+                                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row justify-content-center">
+                                            <div class="card-transparent">
+                                                <div class="row">
+                                                    <div class="center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg col-md-4">
+                                                        <h2 class="rounded-start id">03</h2>
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="start card-body">
+                                                            <h5 class="card-title">Networking Solutions</h5>
+                                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row justify-content-center">
+                                            <div class="card-transparent">
+                                                <div class="row">
+                                                    <div class="center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg col-md-4">
+                                                        <h2 class="rounded-start id">04</h2>
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">Sales Service</h5>
+                                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-12 center-xs center-sm center-md center-lg">
+                                        <button class="btn btn-info">Learn More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slideitem project_slider">
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="content">
+                                        <div class="row my-4 text-center">
+                                            <h1 class="text-light">Our Projects</h1>
+                                            <h3 class="text-info">Awura Recent Works</h3>
+                                        </div>
+                                        <div class="row my-3 justify-content-center">
+                                            <div class="col-4 center-xs center-sm center-md center-lg">
+                                                <div class="card-transparent rounded">
+                                                    <embed src="{%static "imgs/OTC.jpg"%}" class="mt-3" height="180" frameborder="0" type="">
+                                                    <div class="card-title">
+                                                        <h4>Electrical Infrastructure</h4>
+                                                        <p>Oromia Tourism Comission</p>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laborum vero necessitatibus nihil deleniti magni sapiente officia iure iusto vel! Doloribus nihil quasi natus illo, temporibus nostrum
+                                                            et nulla doloremque!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 center-xs center-sm center-md center-lg">
+                                                <div class="card-transparent rounded">
+                                                    <embed src="{%static "imgs/luis.jpeg"%}" class="mt-3" height="180" frameborder="0" type="">
+                                                    <div class="card-title">
+                                                        <h4>Network Infrastructure</h4>
+                                                        <p>Luis Retails Lebu</p>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laborum vero necessitatibus nihil deleniti magni sapiente officia iure iusto vel! Doloribus nihil quasi natus illo, temporibus nostrum
+                                                            et nulla doloremque!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 center-xs center-sm center-md center-lg">
+                                                <div class="card-transparent rounded">
+                                                    <embed src="{%static "imgs/branna.jpg"%}" class="mt-3" height="180" frameborder="0" type="">
+                                                    <div class="card-title">
+                                                        <h4>Software Development</h4>
+                                                        <p>Branna Apps</p>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laborum vero necessitatibus nihil deleniti magni sapiente officia iure iusto vel! Doloribus nihil quasi natus illo, temporibus nostrum
+                                                            et nulla doloremque!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="slideitem contact_slider">
+                                <div class="row middle-xs middle-sm middle-md middle-lg">
+                                    <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7" id="content">
+                                        <h1 class="text-light mb-3 p-2"> Have Some Questions ? </h1>
+                                        <p class="text-light mb-3 p-2"><i class="fas fa-clock"></i> Office Hours : Monday - Friday -> 8:00 AM - 5:00 PM </p>
+                                        <br>
+                                        <p class="text-light mb-3 p-2">
+                                            <i class="fas fa-phone-alt"></i> +251 910 183 505 | +251 913 818 349 | +251 923481783</p>
+                                        <br>
+                                        <p class="text-light mb-3 p-2">
+                                            <i class="fas fa-envelope"></i> info@awraplc.org</p>
+                                        <br>
+                                        <p class="text-light mb-3 p-2"><i class="fas fa-map-marker-alt"></i> RIZQ House, Gabon St, Addis Ababa (around Dembel) next to Merkeb building</p>
+                                        <div class="mapouter">
+                                            <div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q= RIZQ House, Gabon St, Addis Ababa (around Dembel) next to Merkeb building&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                                                <!-- <a href="https://formatjson.org/">format json</a> -->
+                                            </div>
+                                            <style>
+                                                .mapouter {
+                                                    position: relative;
+                                                    text-align: right;
+                                                    width: 600px;
+                                                    height: 400px;
+                                                }
+                                                
+                                                .gmap_canvas {
+                                                    overflow: hidden;
+                                                    background: none!important;
+                                                    width: 600px;
+                                                    height: 400px;
+                                                }
+                                                
+                                                .gmap_iframe {
+                                                    width: 600px!important;
+                                                    height: 300px!important;
+                                                }
+                                            </style>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5" id="content">
+                                        <div class="card">
+                                            <form class="p-2">
+                                                <div class="text-center">
+                                                    <h4>Get In Touch With Us</h4>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail1">Full Name</label>
+                                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Full Name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail1">Phone</label>
+                                                    <input type="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your phone">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail1">Email address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                                    <small id="emailHelp" class="form-text text-info">We'll never share your email with anyone else.</small>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="exampleFormControlTextarea1">Message</label>
+                                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <button type="submit" class="btn btn-outline-primary rounded-5 text-dark">Send Message</button>
+                                                </div>
+
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slideitem about_slider">
+                                <div class="row">
+                                    <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7" id="content">
+                                        <div class="row">
+                                            <h1 class="text-light"> About <span class="">AWURA</span> Computing PLC
+                                                <hr>
+                                            </h1>
+                                        </div>
+                                        <div class="row">
+                                            <p class="text-light">Awura is a technology firm working on different areas like Software development, Networking and Electrical infrastructure works.</p>
+                                        </div>
+                                        <div class="row description">
+                                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                                <h4 class="text-info">About Our Software Team
+                                                    <hr>
+                                                </h4>
+                                                <p class="text-light mb-3">Awura builds web applications for its clients like websites, portals, innovative applications, organization customized systems, ERP, Gym systems, Pharmaceutical systems and so on.</p>
+                                                <h6 class="text-info">Our Tech Stack</h6>
+                                                <p><span class="badge rounded-pill bg-success">Django</span>|<span class="badge rounded-pill bg-danger">Laravel</span></p> <br>
+                                                <p><span class="badge rounded-pill bg-info">Flutter</span>|<span class="badge rounded-pill bg-primary">Android Studio</span></p>
+
+                                            </div>
+                                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                                <div class="row mb-2">
+                                                    <h4 class="text-info">
+                                                        About Our Electricals Team
+                                                        <hr> </h4>
+                                                    <p class="text-light mb-3">Awura Electricals team has done some remarkable works including the recent project done for Oromia Tourism Commission, HQ Office in Addis Ababa, Bole.</p>
+                                                </div>
+                                                <div class="row mb-2">
+                                                    <h4 class="text-info">About Our Networking Team
+                                                        <hr>
+                                                    </h4>
+                                                    <p class="text-light mb-3">Awura has experience on the best network technologies like the UBIQUITY UNIFY Access points and controller full configuration in Ethiopia </p>
+                                                </div>
+                                                <div class="row mb-2">
+                                                    <h4 class="text-info">
+                                                        About Our Sales Team
+                                                        <hr> </h4>
+                                                    <p class="text-light mb-3">We can supply the best network and electrical materials for your projects and company use.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                        <div class="about-values-heading">
+                                            <h2 class="text-center">Our Partners</h2>
+                                        </div>
+                                        <div class="card-transparent">
+                                            <div class="row">
+                                                <div class="center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg col-md-4">
+                                                    <img src="{%static "imgs/ellis.png"%}" class="img-fluid rounded-start id" alt="...">
+                                                    <!-- <h2 class="rounded-start id">03</h2> -->
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="start card-body">
+                                                        <h5 class="card-title">EELIS , Estonia</h5>
+                                                        <p class="card-text"><small class="text-info">Obaida Rabie, Managing Partner</small></p>
+                                                        <p class="card-text">We are happy with the services they provided for our organization and we recommend the for similar services.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-transparent">
+                                            <div class="row">
+                                                <div class="center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg col-md-4">
+                                                    <img src="{%static "imgs/icco.png"%}" class="img-fluid rounded-start id" alt="...">
+                                                    <!-- <h2 class="rounded-start id">03</h2> -->
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="start card-body">
+                                                        <h5 class="card-title">ICCO Cooperation, Ethiopia</h5>
+                                                        <p class="card-text"><small class="text-info">Desta Damena, Country Manager</small></p>
+                                                        <p class="card-text">We are happy with the services they provided for our organization and we recommend the for similar services.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-transparent">
+                                            <div class="row">
+                                                <div class="center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg col-md-4">
+                                                    <img src="{%static "imgs/rixos.png"%}" class="img-fluid rounded-start id" alt="...">
+                                                    <!-- <h2 class="rounded-start id">03</h2> -->
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="start card-body">
+                                                        <h5 class="card-title">RIXOS Trading PLC, Ethiopia</h5>
+                                                        <p class="card-text"><small class="text-info">Ozan Semerci, General Manager</small></p>
+                                                        <p class="card-text">We highly recommend Awura computing PLC to anyone requiring a new networking related hardware and systems who seeks neat installation.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Background image -->
+    </header>
+
+    <!--Main Navigation-->
+    <script src="{%static "js/slide.js"%}"></script>
+</body>

@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,500;1,300&display=swap');
+
+/* Color of the links BEFORE scroll */
+
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+    color: rgb(255, 255, 255);
+}
+
+
+/* Color of the links AFTER scroll */
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon {
+    color: #4f4f4f;
+}
+
+.carousel .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    text-indent: -99px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    background: #fff;
+    border-radius: 2px;
+}
+
+
+/* Color of the navbar AFTER scroll */
+
+.navbar-scrolled {
+    background-color: #fff;
+}
+
+.navbar .navbar-brand {
+    font-size: 15px;
+    font-weight: 350;
+    font-family: 'Bitter', serif;
+}
+
+.home-p {
+    font-size: 1.2rem;
+}
+
+.nav-item .nav-link i {
+    font-size: 20px;
+}
+
+.carousel-indicators button {
+    border-radius: 100px;
+}
+
+
+/* An optional height of the navbar AFTER scroll */
+
+.navbar.navbar-scroll.navbar-scrolled {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.carousel-item {
+    /* background-image: url("./background.jpeg"); */
+    background-color: rgba(0, 0, 0, 0.10);
+}
+
+.carousel img {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    filter: brightness(30%);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.latest .card-transparent {
+    background-color: rgba(199, 199, 199, 0.1);
+}
+
+.contact .carousel-caption .container {
+    background-color: rgba(199, 199, 199, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact .carousel-caption .container label {
+    text-align: left;
+    align-items: left;
+}
+
+.latest .card-transparent .card-title p {
+    background: -webkit-linear-gradient(rgb(81, 235, 255), rgb(126, 200, 240));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services .card-img i {
+    font-size: 6rem;
+    /* Created with https://www.css-gradient.com */
+    background: -webkit-linear-gradient(rgb(81, 235, 255), rgb(56, 185, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services .services-head {
+    display: inline;
+    border-bottom: 1rem solid #0085cc;
+}
+
+.carousel .carousel-item h2,
+h3,
+h4 {
+    font-family: 'Bitter', serif;
+    font-size: 2rem;
+}
+
+.brand-span {
+    background: -webkit-linear-gradient(rgb(81, 235, 255), rgb(56, 185, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home-h4 {
+    background: -webkit-linear-gradient(rgb(81, 235, 255), rgb(56, 185, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.carousel .carousel-item h1 {
+    font-family: 'Bitter', serif;
+    font-size: 3rem;
+}
+
+.carousel button ul li {
+    list-style: none;
+}
+
+.sales .card-transparent .card-img {
+    background-color: rgba(199, 199, 199, 0.10);
+    width: 120px;
+    border-radius: 80%;
+}
+
+.sales .card-title {
+    font-size: 14px;
+}
+
+.sales .card-body {
+    font-size: 10px;
+}
+
+
+/* .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    border-color: #878787;
+}
+
+.card-body i {
+    font-size: 3rem;
+} */
+
+.service-title {
+    font-family: 'Bitter', serif;
+}
+
+.stat-section {
+    background-color: rgb(28, 73, 93);
+    height: 30vh;
+}
+
+.stat-section h3 {
+    font-family: 'Bitter', serif;
+    font-size: 4rem;
+}
+
+.about {
+    background-image: url("./adult-business-businessman-1061588.webp");
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.about .about-txt {
+    background: rgb(51, 51, 51, .8);
+}
+
+.comments {
+    background-color: rgb(28, 73, 93);
+    height: 50vh;
+}
