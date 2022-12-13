@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'awuraproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        
+        'ENGINE': 'django.db.backends.postgresql',
     }
 }
 
