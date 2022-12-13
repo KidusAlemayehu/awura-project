@@ -77,12 +77,7 @@ WSGI_APPLICATION = 'awuraproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'awura',
-        'USER': 'kidus_alx',
-        'PASSWORD': '3346khag',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        
     }
 }
 
