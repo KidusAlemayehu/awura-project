@@ -549,6 +549,10 @@
     }
     .slide_container {
         max-width: 540px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
     }
     .section-showcase .home_slider #logocontent {
         display: none;
