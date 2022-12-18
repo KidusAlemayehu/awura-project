@@ -122,8 +122,8 @@
 .section-showcase .service_slider #content h2 {
     font-weight: 500;
     font-size: 4.2rem;
-    margin-top: 2rem;
-    padding-top: 2rem;
+    margin-top: 4.2rem;
+    padding-top: 4.2rem;
 }
 
 .section-showcase .contact_slider #content h1 {
@@ -416,8 +416,8 @@
     }
     .section-showcase .slide_container .slideitem {
         display: block;
-        padding-top: 25px;
-        margin-top: 25px;
+        padding-top: 0.5rem;
+        margin-top: 0.5rem;
     }
     .section-showcase .service_slider .card-transparent .id {
         font-size: 1.5rem;
@@ -429,6 +429,10 @@
     .section-showcase .project_slider .card-transparent {
         width: 20rem;
         border: solid 1px rgb(0, 208, 255, 0.50);
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
     }
     .section-showcase .project_slider .card-transparent embed {
         width: 15rem;
@@ -466,6 +470,10 @@
         height: 35rem;
         margin-top: 1rem;
         padding-top: 1rem;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
     }
     .section-showcase .about_slider .card-transparent img {
         width: 50px;
@@ -499,6 +507,10 @@
         width: 320px;
         height: 240px;
         align-self: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
     }
     .section-showcase .about_slider #content .about-values-heading h2 {
         padding-top: 0.4rem;
@@ -506,14 +518,14 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 1024px) {
     body {
         margin: 0;
         padding: 0;
         background-color: rgb(22, 22, 22);
     }
     .navbar {
-        background-color: rgba(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.15);
     }
     .navbar ul li {
         display: none;
@@ -537,37 +549,66 @@
     .section-showcase .home_slider #content h1,
     .section-showcase .home_slider #content h2 {
         font-weight: 500;
-        font-size: 25px;
+        font-size: 50px;
         margin-top: 5px;
         padding-top: 5px;
         color: #fff;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
     }
     .section-showcase .home_slider #content p {
-        font-size: 12px;
+        font-size: 24px;
         font-weight: 300;
         color: #fff;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
     }
     .slide_container {
         max-width: 540px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
     }
     .section-showcase .home_slider #logocontent {
         display: none;
     }
     .section-showcase .slide_container .slideitem {
         display: block;
-        padding-top: 25px;
-        margin-top: 25px;
+        padding-top: 2.5rem;
+        margin-top: 2.5rem;
     }
-    .section-showcase .service_slider .card-transparent .id {
-        font-size: 1.5rem;
-        padding-top: 25px;
+    .section-showcase .service_slider #content h1,
+    .section-showcase .service_slider #content h2 {
+        font-weight: 500;
+        font-size: 4.2rem;
+        margin-top: 2rem;
+        padding-top: 2rem;
+    }
+    .section-showcase .section-showcase .service_slider .card-transparent .id {
+        font-size: 4.5rem;
+        padding-top: 5rem;
         background: -webkit-linear-gradient(rgb(81, 235, 255), rgb(21, 168, 204));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+    .section-showcase .service_slider .card-transparent {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
+    }
     .section-showcase .project_slider .card-transparent {
-        width: 20rem;
+        width: 36rem;
         border: solid 1px rgb(0, 208, 255, 0.50);
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
     }
     .section-showcase .project_slider .card-transparent embed {
         width: 15rem;
@@ -591,8 +632,8 @@
         height: 200px;
     }
     .gmap_iframe {
-        width: 300px!important;
-        height: 150px!important;
+        width: 500px!important;
+        height: 250px!important;
     }
     .section-showcase .contact_slider .card {
         background-color: rgb(255, 255, 255);
@@ -601,14 +642,15 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
         /* color: #fff; */
         border-radius: 15px;
-        width: 22rem;
+        width: 30rem;
         height: 35rem;
         margin-top: 1rem;
         padding-top: 1rem;
+        align-self: center;
     }
     .section-showcase .about_slider .card-transparent img {
-        width: 50px;
-        height: 50px;
+        width: 100px;
+        height: 100px;
     }
     .section-showcase .contact_slider #content {
         padding-top: 0.5rem;
@@ -635,8 +677,8 @@
         padding-top: 0.2rem;
     }
     .section-showcase .about_slider .card-transparent {
-        width: 320px;
-        height: 240px;
+        width: 448px;
+        height: 280px;
         align-self: center;
     }
     .section-showcase .about_slider #content .about-values-heading h2 {
