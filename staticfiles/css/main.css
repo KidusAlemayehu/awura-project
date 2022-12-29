@@ -168,12 +168,14 @@
     font-size: 2.5rem;
 }
 
-.section-showcase .project_slider #content h1,
-.section-showcase .project_slider #content h2 {
+.section-showcase .project_slider #content h1 {
     font-weight: 500;
     font-size: 3.5rem;
-    margin-top: 1rem;
-    padding-top: 1rem;
+    background: -webkit-linear-gradient(rgb(81, 235, 255), rgb(21, 168, 204));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 .section-showcase .contact_slider #content h1 {
@@ -246,6 +248,8 @@
 .section-showcase .project-slider .card-transparent h6 {
     font-size: 1.5rem;
 }
+
+.section-showcase .project_slider h1 {}
 
 .section-showcase h1 {
     display: inline-block;
