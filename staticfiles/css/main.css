@@ -359,7 +359,7 @@
     height: 150px;
 }
 
-.section-showcase .about_slider hr {
+.section-showcase .contact-slider hr {
     color: rgb(0, 166, 255);
 }
 
@@ -375,6 +375,11 @@
 .section-showcase .about_slider #content .about-values-heading h2 {
     padding-top: 5rem;
     margin-top: 5rem;
+}
+
+.section-showcase .contact-slider #map-content {
+    margin-top: 3rem;
+    padding-top: 3rem;
 }
 
 .mapouter {
