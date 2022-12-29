@@ -202,6 +202,10 @@
     animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
 }
 
+.section-showcase .service_slider .card-transparent {
+    height: 45rem;
+}
+
 .section-showcase .project_slider #content {
     transform: scale(0.94);
     animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
@@ -218,10 +222,6 @@
     height: 40rem;
     margin-top: 3rem;
     padding-top: 3rem;
-}
-
-.section-showcase .project_slider #content .card-transparent:hover {
-    transform: scale(1.1);
 }
 
 .section-showcase .about_slider .about-values-heading {
@@ -355,7 +355,7 @@
     height: 150px;
 }
 
-.section-showcase .about_slider hr {
+.section-showcase .contact-slider hr {
     color: rgb(0, 166, 255);
 }
 
@@ -373,8 +373,13 @@
     margin-top: 5rem;
 }
 
+.section-showcase .contact_slider .map-container {
+    margin-top: 7rem;
+    padding-top: 7rem;
+}
+
 .mapouter {
-    position: relative;
+    /* position: relative; */
     text-align: right;
     width: 600px;
     height: 400px;
