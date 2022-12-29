@@ -1,7 +1,7 @@
 document.querySelectorAll(".slide_container").forEach((carousel) => {
     const items = carousel.querySelectorAll(".slideitem");
 
-    const buttons = document.querySelectorAll(".slide-nav");
+    const buttons = document.querySelectorAll(".mob-slide-nav");
 
     buttons.forEach((button, i) => {
         button.addEventListener("click", () => {
@@ -17,6 +17,7 @@ document.querySelectorAll(".slide_container").forEach((carousel) => {
             button.classList.add("btn-selected");
         });
     });
+
     // Select the first item on page load
     items[0].classList.add("slidetem--selected");
     buttons[0].classList.add("btn-selected");
