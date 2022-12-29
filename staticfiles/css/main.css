@@ -239,8 +239,12 @@
     -webkit-text-fill-color: transparent;
 }
 
-.section-showcase .contact_slider .form-group {
-    padding: 0.7rem;
+.section-showcase .project-slider .card-transparent p {
+    font-size: 1.5rem;
+}
+
+.section-showcase .project-slider .card-transparent h6 {
+    font-size: 1.5rem;
 }
 
 .section-showcase h1 {
