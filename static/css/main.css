@@ -427,6 +427,10 @@
             .section-showcase .slide_container .slideitem--selected {
                 display: block;
             }
+            .section-showcase .service_slider .card-transparent p {
+                font-weight: 400;
+                font-size: 0.8rem;
+            }
             .section-showcase .service_slider .card-transparent .id {
                 font-size: 1.5rem;
                 padding-top: 25px;
