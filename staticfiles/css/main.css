@@ -429,11 +429,11 @@
             }
             .section-showcase .service_slider .card-transparent p {
                 font-weight: 400;
-                font-size: 0.8rem;
+                font-size: 0.75rem;
             }
             .section-showcase .service_slider .card-transparent .id {
                 font-size: 1.5rem;
-                padding-top: 25px;
+                padding-top: 10px;
                 background: -webkit-linear-gradient(rgb(81, 235, 255), rgb(21, 168, 204));
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
