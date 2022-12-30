@@ -373,7 +373,7 @@
             .navbar {
                 background-color: rgba(0, 0, 0, 0.10);
             }
-            .navbar .social-nav ul li {
+            .navbar .social-nav {
                 display: none;
             }
             #nav-bar ul li {
