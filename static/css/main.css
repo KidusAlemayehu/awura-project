@@ -431,6 +431,10 @@
                 font-weight: 400;
                 font-size: 0.75rem;
             }
+            .section-showcase .service_slider #content {
+                margin-top: 1rem;
+                padding-top: 1rem;
+            }
             .section-showcase .service_slider .card-transparent .id {
                 font-size: 1.5rem;
                 padding-top: 10px;
