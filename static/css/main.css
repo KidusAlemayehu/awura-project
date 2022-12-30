@@ -460,6 +460,8 @@
             .section-showcase .project_slider #content h3 {
                 font-weight: 400;
                 font-size: 1rem;
+                padding: 0;
+                margin: 0;
             }
             .section-showcase .project_slider .card-transparent embed {
                 width: 15rem;
