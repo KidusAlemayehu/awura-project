@@ -380,6 +380,13 @@
                 padding: 10px;
                 text-decoration: none;
             }
+            .btn-selected {
+                background-color: rgba(255, 255, 255, 0.25);
+                color: rgb(0, 183, 255);
+            }
+            .active {
+                color: rgb(0, 183, 255);
+            }
             .mob-nav ul li {
                 display: inline;
                 list-style: none;

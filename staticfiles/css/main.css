@@ -8,7 +8,7 @@
         }
         
         .navbar .navbar-brand {
-            background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(15, 171, 255));
+            background: -webkit-linear-gradient(rgb(81, 235, 255), rgb(21, 168, 204));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             font-size: 2rem;
@@ -379,6 +379,13 @@
             #nav-bar ul li {
                 padding: 10px;
                 text-decoration: none;
+            }
+            .btn-selected {
+                background-color: rgba(255, 255, 255, 0.25);
+                color: rgb(0, 183, 255);
+            }
+            .active {
+                color: rgb(0, 183, 255);
             }
             .mob-nav ul li {
                 display: inline;
