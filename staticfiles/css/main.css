@@ -326,6 +326,14 @@
     color: rgb(0, 166, 255);
 }
 
+.section-showcase .contact_slider #content h6 {
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-top: 0.4rem;
+    padding-top: 0.4rem;
+    line-height: 2;
+}
+
 .section-showcase .about_slider .sys-solutions {
     background-color: rgba(199, 199, 199, 0.10);
     padding: 0.5rem;
@@ -532,8 +540,15 @@
         margin-top: 2rem;
         padding-top: 2rem;
     }
+    .section-showcase .contact_slider #content h6 {
+        font-weight: 400;
+        font-size: 1rem;
+        margin-top: 0.4rem;
+        padding-top: 0.4rem;
+        line-height: 1.5;
+    }
     .section-showcase .contact_slider #content p {
-        font-weight: 500;
+        font-weight: 450;
         font-size: 0.6rem;
         margin-top: 0.4rem;
         padding-top: 0.4rem;
