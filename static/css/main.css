@@ -565,7 +565,7 @@
         margin-top: 1rem;
         padding-top: 1rem;
     }
-    .modal {
+    .modal .modal-content img {
         width: 150px;
         height: 120px;
     }
