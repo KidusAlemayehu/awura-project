@@ -4,9 +4,10 @@
     padding: 0;
 }
 
-.navbar {
+
+/* .navbar {
     background-color: rgba(0, 0, 0, 0.15);
-}
+} */
 
 .navbar .navbar-brand {
     background: -webkit-linear-gradient(rgb(81, 235, 255), rgb(21, 168, 204));
@@ -52,7 +53,7 @@
 }
 
 .section-showcase {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('./background.jpeg');
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('./background.jpeg'); */
     height: 100vh;
     width: 100vw;
     background-size: cover;

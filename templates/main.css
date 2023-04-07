@@ -277,6 +277,7 @@
     width: 40rem;
     padding: 0.5rem;
     margin: 1.5rem;
+    max-height: 40rem;
     /* border-radius: 80%; */
 }
 
