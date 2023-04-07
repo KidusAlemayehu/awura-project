@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-_jpgp!=tvc65im3xh+w$=!*(hwv#*_$nei9uxx@^0u#4mkii^)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["0.0.0.0"]
+ALLOWED_HOSTS = ["0.0.0.0", "web.awuraplc.org"]
 
 
 # Application definition

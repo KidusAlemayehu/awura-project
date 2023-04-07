@@ -3,8 +3,12 @@ from products.models import Product
 
 # Create your views here.
 def landing(request):
-    # qs = Product.objects.all()
-    # data={
-    #     "products": qs
-    # }
     return render(request,'index.html')
+def services(request):
+    return render(request,'services.html')
+def projects(request):
+    return render(request,'projects.html')
+def vacancy(request):
+    return render(request, 'vacancy.html')
+def contact(request):
+    return render(request,'contact.html')
