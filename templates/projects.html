@@ -31,7 +31,7 @@
                     <a class="nav-link" aria-current="page" href="{% url 'landing'%}">Home</a>
                     <a class="nav-link" href="{% url 'services'%}">Services</a>
                     <a class="nav-link active" href="{% url 'projects'%}">Projects</a>
-                    <a class="nav-link" href="{% url 'vacancy'%}">Vacancy</a>
+                    {% comment %} <a class="nav-link" href="{% url 'vacancy'%}">Vacancy</a> {% endcomment %}
                     <a class="nav-link" href="{% url 'contact'%}">Contact</a>
                 </div>
               </div>
@@ -67,7 +67,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="card-transparent rounded text-dark">
+                                                        {% comment %} <div class="card-transparent rounded text-dark">
                                                             <div class="row">
                                                                 <div class="col-md-12">
                                                                     <div class="card-body text-dark">
@@ -80,8 +80,8 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="card-transparent rounded text-dark">
+                                                        </div> {% endcomment %}
+                                                        {% comment %} <div class="card-transparent rounded text-dark">
                                                             <div class="row">
                                                                 <div class="col-md-12">
                                                                     <div class="card-body text-dark">
@@ -94,7 +94,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        </div> {% endcomment %}
                                                     </div>
                                                 </div>
                                                 <div class="col-xs-12 col-sm-12 col-md-6 col -lg-6 center-xs  center-sm center-md center-lg">
