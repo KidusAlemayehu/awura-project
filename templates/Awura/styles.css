@@ -1,0 +1,1230 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 100%;
+}
+.frame-1-VTr .auto-group-5c3e-HPi .awura-logo nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #faf9f94e;
+}
+
+.frame-1-VTr .auto-group-5c3e-HPi .awura-logo nav .logo {
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.frame-1-VTr .auto-group-5c3e-HPi nav .logo img {
+  vertical-align: middle;
+  width: 40px;
+  height: auto;
+}
+.frame-1-VTr .auto-group-5c3e-HPi .awura-logo nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+ /* background-color: #faf9f9cd; */
+  float: right;
+}
+
+.frame-1-VTr .auto-group-5c3e-HPi .awura-logo nav li {
+  display: inline-block;
+}
+
+.frame-1-VTr .auto-group-5c3e-HPi .awura-logo nav a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;
+  left: 72.6rem;
+  top: 4.7rem;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+.frame-1-VTr .auto-group-5c3e-HPi .awura-logo nav a:hover {
+  background-color: #faf9f94e;
+  color: #0fb4e8;
+}
+.frame-1-VTr .auto-group-5c3e-HPi .awura-logo nav li:hover a {
+  color: #0fb4e8;
+}
+.frame-1-VTr .auto-group-5c3e-HPi .awura-logo nav .company-name{
+  width: 14 rem;
+  height: 4 rem;
+  position: absolute;
+  left: 12rem;
+  top: 2.1rem;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #0fb3e7;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.frame-1-VTr {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.frame-1-VTr .auto-group-5c3e-HPi {
+  width: 100%;
+  height: 104.2rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.frame-1-VTr .auto-group-5c3e-HPi .rectangle-1-YDA {
+  width: 100%;
+  height: 83.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #f4f1f1;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('./assets/offfice.avif');
+}
+.frame-1-VTr .auto-group-5c3e-HPi .rectangle-44-1Me {
+  width: 100%;
+  height: 25.8rem;
+  position: absolute;
+  left: 0;
+  top: 78.2rem;
+  background-color: #3254a1;
+}
+.frame-1-VTr .auto-group-5c3e-HPi .rectangle-48-YcU {
+  width: 31.5rem;
+  height: 12.4rem;
+  position: absolute;
+  left: 9.6rem;
+  top: 91.6rem;
+  background-color: #e5e9eb;
+}
+.frame-1-VTr .auto-group-5c3e-HPi .rectangle-46-56c {
+  width: 31.5rem;
+  height: 12.6rem;
+  position: absolute;
+  left: 85.5rem;
+  top: 91.6rem;
+  background-color: #e5e9eb;
+}
+.frame-1-VTr .auto-group-5c3e-HPi .rectangle-47-p4C {
+  width: 31.5rem;
+  height: 12.6rem;
+  position: absolute;
+  left: 48.3rem;
+  top: 91.6rem;
+  background-color: #e4e9ea;
+}
+.frame-1-VTr .auto-group-5c3e-HPi .ellipse-1-kTe {
+  width: 100vw;
+  height: 18.6rem;
+  position: absolute;
+  left: 0;
+  top: 72.9rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+
+.frame-1-VTr .auto-group-5c3e-HPi .hero-section .hero-text .text-content {
+  width: 57.2rem;
+  height: 12.4rem;
+  position: absolute;
+  left: 9.1rem;
+  top: 33.2rem;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.171875;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+}
+.frame-1-VTr .auto-group-5c3e-HPi .hero-section .hero-text .text-content .text {
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #0fb4e8;
+  font-family: Revalia, 'Source Sans Pro';
+}
+.frame-1-VTr .auto-group-5c3e-HPi .hero-section .hero-text .text-content .every-problem {
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #ffffff;
+  font-family: Revalia, 'Source Sans Pro';
+}
+.frame-1-VTr .auto-group-5c3e-HPi .hero-section .hero-text .awura-computing {
+  width: 50.3rem;
+  height: 3.1rem;
+  position: absolute;
+  left: 9.1rem;
+  top: 52.7rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.171875;
+  color: #0fb4e8;
+  font-family: Roboto, 'Source Sans Pro';
+}
+.frame-1-VTr .auto-group-5c3e-HPi .hero-section .hero-text .awura-computing .awura {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #0fb4e8;
+  font-family: Revalia, 'Source Sans Pro';
+}
+.frame-1-VTr .auto-group-5c3e-HPi .hero-section .hero-text .awura-computing .computing {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #ffffff;
+  font-family: Revalia, 'Source Sans Pro';
+}
+.frame-1-VTr .auto-group-5c3e-HPi .hero-section .logo-container{
+ text-align: right;
+}
+.frame-1-VTr .auto-group-5c3e-HPi .hero-section .logo-container img{
+  width: 100px; 
+  height: auto;
+}
+.frame-1-VTr .auto-group-5c3e-HPi .learn-a-little-more {
+  width: 43.9rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 20rem;
+  top: 82rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #ffffff;
+  font-family: Revalia, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.frame-1-VTr .auto-group-5c3e-HPi .description {
+  width: 54rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 75rem;
+  top: 82rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #ffffff;
+  font-family: Revalia, 'Source Sans Pro';
+}
+.frame-1-VTr .auto-group-5c3e-HPi .our-services {
+  width: 19.1rem;
+  height: 1.8rem;
+  position: absolute;
+  left: 15.8rem;
+  top: 95.2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #0fb4e8;
+  font-family: Revalia, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.frame-1-VTr .auto-group-5c3e-HPi .how-can-we-help {
+  width: 20.4rem;
+  height: 2.9rem;
+  position: absolute;
+  left: 15.2rem;
+  top: 99.2rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.1725;
+  color: #333333;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.frame-1-VTr .auto-group-5c3e-HPi .our-projects {
+  width: 19rem;
+  height: 1.8rem;
+  position: absolute;
+  left: 55.1rem;
+  top: 95.2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #0fb4e8;
+  font-family: Revalia, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.frame-1-VTr .auto-group-5c3e-HPi .why-choose-awura{
+  width: 21.8rem;
+  height: 2.9rem;
+  position: absolute;
+  left: 53.7rem;
+  top: 99.2rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.frame-1-VTr .auto-group-5c3e-HPi .our-customers {
+  width: 21.6rem;
+  height: 1.8rem;
+  position: absolute;
+  left: 90.4rem;
+  top: 95.2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #0fb4e8;
+  font-family: Revalia, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.frame-1-VTr .auto-group-5c3e-HPi .bring-innovative-thinking {
+  width: 26.8rem;
+  height: 2.9rem;
+  position: absolute;
+  left: 87.5rem;
+  top: 99.2rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+} 
+.frame-1-VTr .auto-group-dbsu-wxQ {
+  box-sizing: border-box;
+  padding: 0rem 3rem 0.1rem 3.1rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.frame-1-VTr .auto-group-dbsu-wxQ .auto-group-fh4g-fdW {
+  margin: 0rem 0rem 5.6rem 6.5rem;
+  height: 21rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.frame-1-VTr .auto-group-dbsu-wxQ .auto-group-fh4g-fdW .auto-group-km8p-PpQ {
+  margin-right: 7.2rem;
+  width: 31.5rem;
+  height: 100%;
+  position: relative;
+  background-color: #ffffff;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('.assets/offfice.avif');
+  flex-shrink: 0;
+}
+.frame-1-VTr .auto-group-dbsu-wxQ .auto-group-fh4g-fdW .auto-group-km8p-PpQ .rectangle-49-LDr {
+  width: 31.5rem;
+  height: 5rem;
+  position: absolute;
+  left: 0;
+  top: 16rem;
+  background-color: rgba(217, 217, 217, 0.8199999928);
+}
+.frame-1-VTr .auto-group-dbsu-wxQ .auto-group-fh4g-fdW .auto-group-km8p-PpQ .view-all-services-G7W {
+  width: 23.7rem;
+  height: 1.6rem;
+  position: absolute;
+  left: 3.9rem;
+  top: 17.1rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #333333;
+  font-family: Revalia, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.frame-1-VTr .auto-group-dbsu-wxQ .auto-group-fh4g-fdW .auto-group-phcg-XZE {
+  margin-right: 5.7rem;
+  width: 31.5rem;
+  height: 100%;
+  position: relative;
+  background-color: #d9d9d9;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('..assets/rectangle-5o-bg.png');
+  flex-shrink: 0;
+}
+.frame-1-VTr .auto-group-dbsu-wxQ .auto-group-fh4g-fdW .auto-group-phcg-XZE .rectangle-53-gBE {
+  width: 31.5rem;
+  height: 5rem;
+  position: absolute;
+  left: 0;
+  top: 16rem;
+  background-color: rgba(217, 217, 217, 0.8199999928);
+}
+.frame-1-VTr .auto-group-dbsu-wxQ .auto-group-fh4g-fdW .auto-group-phcg-XZE .view-our-projects-R8p {
+  width: 24.1rem;
+  height: 1.6rem;
+  position: absolute;
+  left: 3.7rem;
+  top: 17.1rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #333333;
+  font-family: Revalia, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.frame-1-VTr .auto-group-dbsu-wxQ .auto-group-fh4g-fdW .auto-group-neyj-JCc {
+  width: 31.5rem;
+  height: 100%;
+  position: relative;
+  background-color: #d9d9d9;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/rectangle-51-bg.png');
+  flex-shrink: 0;
+}
+.frame-1-VTr .auto-group-dbsu-wxQ .auto-group-fh4g-fdW .auto-group-neyj-JCc .rectangle-54-qyE {
+  width: 31.5rem;
+  height: 5rem;
+  position: absolute;
+  left: 0;
+  top: 16rem;
+  background-color: rgba(217, 217, 217, 0.8000000119);
+}
+.frame-1-VTr .auto-group-dbsu-wxQ .auto-group-fh4g-fdW .auto-group-neyj-JCc .view-our-stories-nda {
+  width: 22.7rem;
+  height: 1.6rem;
+  position: absolute;
+  left: 4.9rem;
+  top: 17.1rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #333333;
+  font-family: Revalia, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.frame-1-VTr .auto-group-dbsu-wxQ .we-serve-our-clients-best-interests-with-the-best-marketing-solutions-4qz {
+  margin: 0rem 0rem 6.9rem 2.3rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #333333;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .auto-group-dbsu-wxQ .line-15-YmA {
+  margin-right: 0.0972rem;
+  width: 113.8028rem;
+  height: 0.1rem;
+  background-color: #333333;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC {
+  margin-bottom: 7.9rem;
+  box-sizing: border-box;
+  padding: 6rem 8rem 4.9rem 4.7rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(15, 180, 232, 0.0599999987);
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .what-we-do-z7N {
+  margin: 0rem 0rem 4.7rem 3.2rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #3254a1;
+  font-family: Revalia, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .we-believe-in-building-strong-brands-and-integrated-strategies-6w6 {
+  margin: 0rem 0rem 8.9rem 3.2rem;
+  max-width: 69.7rem;
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #333333;
+  font-family: Revalia, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .auto-group-f53s-PQQ {
+  margin-bottom: 5.3974rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .auto-group-f53s-PQQ .auto-group-wis6-KYx {
+  margin: 0.8rem 6.05rem 0rem 0rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .auto-group-f53s-PQQ .auto-group-wis6-KYx .data-center-FSc {
+  margin: 0rem 0rem 4.7rem 0.1rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #333333;
+  font-family: Revalia, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .auto-group-f53s-PQQ .auto-group-wis6-KYx .paragraph {
+  margin-bottom: 6.3rem;
+  max-width: 26.9rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #333333;
+  font-family: Revalia, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .auto-group-f53s-PQQ .auto-group-wis6-KYx .vector-RkQ {
+  margin: 0rem 0rem 1.989rem 0.1rem;
+  width: 6rem;
+  height: 6.711rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .auto-group-f53s-PQQ .auto-group-wis6-KYx .ellipse-4-8ui {
+  margin-left: 0.1rem;
+  width: 9rem;
+  height: 1.8rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .auto-group-f53s-PQQ .line-16-4Ha {
+  margin-right: 8rem;
+  width: 0.05rem;
+  height: 33.8016rem;
+  background-color: #555555;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .auto-group-f53s-PQQ .auto-group-n2sn-CPn {
+  margin: 0.8rem 6.8rem 0rem 0rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .auto-group-f53s-PQQ .auto-group-n2sn-CPn .cyber-security-id2 {
+  margin: 0rem 5rem 4.7rem 0rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #333333;
+  font-family: Revalia, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .auto-group-f53s-PQQ .auto-group-n2sn-CPn .paragraph {
+  margin: 0rem 0rem 7rem 0.8rem;
+  max-width: 26.9rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #333333;
+  font-family: Revalia, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .auto-group-f53s-PQQ .auto-group-n2sn-CPn .vector-Ksi {
+  margin: 0rem 1.3rem 2rem 0rem;
+  width: 6rem;
+  height: 6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .auto-group-f53s-PQQ .auto-group-n2sn-CPn .ellipse-2-4qJ {
+  margin-right: 1.3rem;
+  width: 9rem;
+  height: 1.8rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .auto-group-f53s-PQQ .line-17-CwW {
+  margin: 0.001rem 4.85rem 0rem 0rem;
+  width: 0.05rem;
+  height: 33.8016rem;
+  background-color: #555555;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .auto-group-f53s-PQQ .auto-group-lk36-8aG {
+  margin-top: 0.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .auto-group-f53s-PQQ .auto-group-lk36-8aG .cloud-services-HCG {
+  margin: 0rem 0rem 4.7rem 0.1rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #333333;
+  font-family: Revalia, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .auto-group-f53s-PQQ .auto-group-lk36-8aG .paragraph {
+  margin-bottom: 7rem;
+  max-width: 26.9rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #333333;
+  font-family: Revalia, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .auto-group-f53s-PQQ .auto-group-lk36-8aG .vector-hWt {
+  margin: 0rem 0rem 2.8rem 0.1rem;
+  width: 6rem;
+  height: 5.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .auto-group-f53s-PQQ .auto-group-lk36-8aG .ellipse-3-RSt {
+  margin-left: 0.1rem;
+  width: 9rem;
+  height: 1.8rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-16-5WC .btn .see-more-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0fb4e8;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.frame-1-VTr .frame-16-5WC .btn .see-more-button:hover{
+  transform: scale(1.2);
+}
+.frame-1-VTr .our-clients-nAx {
+  margin: 0rem 0.6rem 2.3rem 0rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #3254a1;
+  font-family: Revalia, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .we-are {
+  margin: 0rem 2.5rem 7.5rem 0rem;
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #333333;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .auto-group-nyuc-13i {
+  margin: 0rem 27.8rem 18.2rem 21.3rem;
+  width: calc(100% - 49.1rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.frame-1-VTr .auto-group-nyuc-13i .chapa-1-vRa {
+  margin-right: 12.6rem;
+  width: 13.8rem;
+  height: 8.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.frame-1-VTr .auto-group-nyuc-13i .dangote-1-TRW {
+  margin-right: 17.1rem;
+  width: 14.5rem;
+  height: 8.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.frame-1-VTr .auto-group-nyuc-13i .ride-1-zwE {
+  width: 12.9rem;
+  height: 8.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-18-LkC {
+  margin-bottom: 12.298rem;
+  box-sizing: border-box;
+  padding: 3.5rem 10.5rem 0rem 10.5rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-18-LkC .why-choose-awura-GNx {
+  margin: 0rem 0.1rem 2.3rem 0rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #3254a1;
+  font-family: Revalia, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-18-LkC .factors-that-makes-us-the-best-option-ns6 {
+  margin-bottom: 5.9985rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #333333;
+  font-family: Revalia, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-18-LkC .auto-group-nzyg-KME {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-18-LkC .auto-group-nzyg-KME .auto-group-su9s-43v {
+  margin: 4.101rem 2.85rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-18-LkC .auto-group-nzyg-KME .auto-group-su9s-43v .customer-first-BuE {
+  margin-bottom: 4.1rem;
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #333333;
+  font-family: Revalia, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-18-LkC .auto-group-nzyg-KME .auto-group-su9s-43v .paragraph {
+  margin-left: 0.4rem;
+  max-width: 25.6rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.1725;
+  color: #555555;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-18-LkC .auto-group-nzyg-KME .line-18-cje {
+  margin-right: 5.5rem;
+  width: 0.05rem;
+  height: 33.802rem;
+  background-color: #555555;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-18-LkC .auto-group-nzyg-KME .auto-group-q1v4-MhE {
+  margin: 4.301rem 7.9rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-18-LkC .auto-group-nzyg-KME .auto-group-q1v4-MhE .amazing-team-VoS {
+  margin-bottom: 3.9rem;
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #333333;
+  font-family: Revalia, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-18-LkC .auto-group-nzyg-KME .auto-group-q1v4-MhE .paragraph{
+  margin-left: 0.1rem;
+  max-width: 25.6rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.1725;
+  color: #555555;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-18-LkC .auto-group-nzyg-KME .line-19-v84 {
+  margin: 0.001rem 5.35rem 0rem 0rem;
+  width: 0.05rem;
+  height: 33.802rem;
+  background-color: #555555;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-18-LkC .auto-group-nzyg-KME .auto-group-uxqj-qVv {
+  margin-top: 4.1015rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-18-LkC .auto-group-nzyg-KME .auto-group-uxqj-qVv .great-support-ng4 {
+  margin-bottom: 4.1rem;
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #333333;
+  font-family: Revalia, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-18-LkC .auto-group-nzyg-KME .auto-group-uxqj-qVv .paragraph {
+  max-width: 25.6rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.1725;
+  color: #555555;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.frame-1-VTr .group-50-QhS {
+  margin: 0rem 18.9rem 13.7rem 18.9rem;
+  width: calc(100% - 37.8rem);
+  height: 46.3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.frame-1-VTr .group-50-QhS .auto-group-btcx-8NY {
+  box-sizing: border-box;
+  padding: 5.5rem 0.2rem 4.6rem 4.8rem;
+  width: 41.1rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.2rem #3254a1;
+  background-color: rgba(230, 239, 244, 0.0599999987);
+  flex-shrink: 0;
+}
+.frame-1-VTr .group-50-QhS .auto-group-btcx-8NY .request-a-callback-RsS {
+  margin: 0rem 3.5rem 2.9rem 0rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 0.86;
+  color: #3254a1;
+  font-family: Revalia, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .group-50-QhS .auto-group-btcx-8NY .line-21-Yx4 {
+  margin: 0rem 18rem 1.8rem 9.3rem;
+  width: calc(100% - 27.3rem);
+  height: 0.2rem;
+  background-color: #0fb4e8;
+  flex-shrink: 0;
+}
+.frame-1-VTr .group-50-QhS .auto-group-btcx-8NY .a-brand-strategy-isnt-a-wish-list-its-a-roadmap-leading-the-way-to-a-better-version-of-your-brand-a-guide-successfully-branding-your-company-szL {
+  margin: 0rem 2.6rem 3rem 0rem;
+  max-width: 33.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #333333;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.frame-1-VTr .group-50-QhS .auto-group-btcx-8NY .and-we-dont-know-about-you-but-we-think-its-time-to-start-the-journey-because-when-you-know-that-your-brand-could-be-so-much-more-theres-no-time-to-waste-K5e {
+  margin: 0rem 0.2rem 1.2rem 0rem;
+  max-width: 35.9rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #333333;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.frame-1-VTr .group-50-QhS .auto-group-btcx-8NY .if-youre-ready-to-make-your-brand-into-everything-it-was-meant-to-be-were-here-to-make-it-happen-pull-up-a-chair-get-in-touch-and-lets-start-your-brand-transformation-wMv {
+  margin-bottom: 1.9rem;
+  max-width: 36.1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #333333;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.frame-1-VTr .group-50-QhS .auto-group-btcx-8NY .note-your-details-are-kept-strictly-confidential-as-per-our-privacy-policy-aQt {
+  margin-right: 0.8rem;
+  max-width: 35.1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #333333;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.frame-1-VTr .group-50-QhS .auto-group-nv3r-PdE {
+  box-sizing: border-box;
+  padding: 5rem 1.2rem 1.4rem 3.7rem;
+  width: 41.1rem;
+  height: 100%;
+  border: solid 0.1rem #3254a1;
+  background-color: rgba(15, 180, 232, 0.0599999987);
+  flex-shrink: 0;
+}
+.frame-1-VTr .group-50-QhS .auto-group-nv3r-PdE .your-name-HCp {
+  margin: 0rem 0rem 1rem 0.1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #333333;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.frame-1-VTr .group-50-QhS .auto-group-nv3r-PdE .rectangle-82-CKn {
+  margin-bottom: 1.4rem;
+  width: 36.1rem;
+  height: 3.8rem;
+  border: solid 0.1rem rgba(51, 51, 51, 0.2700000107);
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 0.4rem;
+}
+.frame-1-VTr .group-50-QhS .auto-group-nv3r-PdE .what-service-can-we-provide-you-JNp {
+  margin: 0rem 0rem 2.2rem 0.1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #333333;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.frame-1-VTr .group-50-QhS .auto-group-nv3r-PdE .auto-group-fynp-NtU {
+  margin: 0rem 0.1rem 2.3rem 0rem;
+  box-sizing: border-box;
+  padding: 1rem 6.7rem 1rem 2.2rem;
+  width: calc(100% - 0.1rem);
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem rgba(51, 51, 51, 0.2700000107);
+  background-color: #ffffff;
+  border-radius: 0.4rem;
+}
+.frame-1-VTr .group-50-QhS .auto-group-nv3r-PdE .auto-group-fynp-NtU .what-service-can-we-provide-you-4WQ {
+  margin-right: 2.9rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.1725;
+  color: #3254a1;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .group-50-QhS .auto-group-nv3r-PdE .auto-group-fynp-NtU .polygon-1-Zxx {
+  margin-bottom: 0.1rem;
+  width: 2.4rem;
+  height: 1.7rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.frame-1-VTr .group-50-QhS .auto-group-nv3r-PdE .your-mail-2rY {
+  margin: 0rem 0rem 1.2rem 0.1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #333333;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.frame-1-VTr .group-50-QhS .auto-group-nv3r-PdE .rectangle-84-8Pn {
+  margin: 0rem 0rem 2.2rem 0.1rem;
+  width: 36.1rem;
+  height: 3.8rem;
+  border: solid 0.1rem rgba(51, 51, 51, 0.2700000107);
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 0.4rem;
+}
+.frame-1-VTr .group-50-QhS .auto-group-nv3r-PdE .auto-group-utlt-cpk {
+  margin: 0rem 0rem 1.4rem 0.1rem;
+  width: 13.4rem;
+  height: 1.8rem;
+  position: relative;
+}
+.frame-1-VTr .group-50-QhS .auto-group-nv3r-PdE .auto-group-utlt-cpk .your-phone-number-7Wc {
+  width: 13.4rem;
+  height: 1.8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #333333;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.frame-1-VTr .group-50-QhS .auto-group-nv3r-PdE .auto-group-utlt-cpk .your-phone-number-DJk {
+  width: 13.4rem;
+  height: 1.8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #333333;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.frame-1-VTr .group-50-QhS .auto-group-nv3r-PdE .rectangle-85-uxG {
+  margin-bottom: 1.4rem;
+  width: 36.1rem;
+  height: 3.8rem;
+  border: solid 0.1rem rgba(51, 51, 51, 0.2700000107);
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 0.4rem;
+}
+.frame-1-VTr .group-50-QhS .auto-group-nv3r-PdE .auto-group-ldju-2GC {
+  margin-left: 0.1rem;
+  width: 11.5rem;
+  height: 4.4rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.1725;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(15, 180, 232, 0.5500000119);
+}
+.frame-1-VTr .footer {
+  width: 100%;
+  height: 39.6rem;
+  position: relative;
+  background-color: rgba(212, 211, 211, 0.8999999762);
+  flex-shrink: 0;
+}
+.frame-1-VTr .footer .auto-group-w3xj-C4C {
+  width: 79.1rem;
+  height: 3.4rem;
+  position: absolute;
+  left: 20.6rem;
+  top: 22rem;
+  display: flex;
+  align-items: flex-start;
+}
+.frame-1-VTr .footer .auto-group-w3xj-C4C .services {
+  margin-right: 20.7rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.1725;
+  color: #555555;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .footer .auto-group-w3xj-C4C .data-center {
+  margin-right: 16.1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.1725;
+  color: #555555;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .footer .auto-group-w3xj-C4C .location {
+  max-width: 19.4rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #333333;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.frame-1-VTr .footer .auto-group-awug-91N {
+  width: 83.6rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 20.6rem;
+  top: 18.5rem;
+  display: flex;
+  align-items: center;
+}
+.frame-1-VTr .footer .auto-group-awug-91N .our-portfolio {
+  margin-right: 16.8rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.1725;
+  color: #555555;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .footer .auto-group-awug-91N .cloud-computing {
+  margin-right: 11.1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.1725;
+  color: #555555;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .footer .auto-group-awug-91N .email {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.1725;
+  color: #333333;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .footer .auto-group-j37z-LEG {
+  width: 74.5rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 20.6rem;
+  top: 15rem;
+  display: flex;
+  align-items: flex-start;
+}
+.frame-1-VTr .footer .auto-group-j37z-LEG .about-us {
+  margin-right: 20.1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.1725;
+  color: #555555;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .footer .auto-group-j37z-LEG .it-management {
+  margin-right: 12.6rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.1725;
+  color: #555555;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-14-s1v .auto-group-j37z-LEG .phone-number{
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.1725;
+  color: #333333;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-14-s1v .links {
+  width: 71.9rem;
+  height: 3.1rem;
+  position: absolute;
+  left: 20.6rem;
+  top: 10.1rem;
+  display: flex;
+  align-items: flex-end;
+}
+.frame-1-VTr .frame-14-s1v .links .our-company {
+  margin-right: 11.7rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.1725;
+  color: #0fb4e8;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-14-s1v .links .solutions {
+  margin-right: 13.8rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.1725;
+  color: #0fb4e8;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-14-s1v .links .contact-info {
+  margin-bottom: 0.2rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.1725;
+  color: #0fb4e8;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-1-VTr .frame-14-s1v .social-links{
+  box-sizing: border-box;
+  padding: 0rem 0.001rem 0rem 2.4rem;
+  width: 82.601rem;
+  height: 4.1rem;
+  position: absolute;
+  left: 18.2rem;
+  top: 30.8rem;
+  display: flex;
+  align-items: center;
+  border-top: solid 0.2rem #333333;
+}
+.frame-1-VTr .frame-14-s1v .social-links .copyright {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.1725;
+  color: #333333;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
