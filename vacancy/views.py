@@ -18,7 +18,7 @@ class VacancyRetrieveUpdateDeleteView(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = VacancySerializer
     def get_permissions(self):
         if self.request.method in ['GET']:
-            return [permissions.AllowAny()]  # Allow anyone to retrieve (view) the vacancy
+            return [permissions.AllowAny()] 
         else:
             return [permissions.IsAdminUser()]
     
