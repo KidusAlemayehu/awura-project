@@ -28,7 +28,12 @@ SECRET_KEY = 'django-insecure-_jpgp!=tvc65im3xh+w$=!*(hwv#*_$nei9uxx@^0u#4mkii^)
 DEBUG = True
 
 ALLOWED_HOSTS = ["0.0.0.0", "web.awuraplc.org"]
-
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+    ],
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
+}
 
 # Application definition
 
@@ -43,6 +48,7 @@ INSTALLED_APPS = [
     'products',
     'vacancy',
     'internship',
+    'django-filter'
 ]
 
 MIDDLEWARE = [
